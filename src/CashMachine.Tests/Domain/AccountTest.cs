@@ -1,6 +1,6 @@
 using CashMachine.Domain.Accounts;
 
-namespace CashMachine.Tests;
+namespace CashMachine.Tests.Domain;
 
 public class AccountTest
 {

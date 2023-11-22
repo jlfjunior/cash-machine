@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CashMachine.Tests", "src\Ca
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CashMachine.Domain", "src\CashMachine.Domain\CashMachine.Domain.csproj", "{266D3A72-DB61-440A-8CA4-FD966F7BBBF8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CashMachine.Infrastructure", "src\CashMachine.Infrastructure\CashMachine.Infrastructure.csproj", "{0D64D6F2-A933-462B-8A92-A3BAFFA7C524}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -26,9 +28,14 @@ Global
 		{266D3A72-DB61-440A-8CA4-FD966F7BBBF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{266D3A72-DB61-440A-8CA4-FD966F7BBBF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{266D3A72-DB61-440A-8CA4-FD966F7BBBF8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D64D6F2-A933-462B-8A92-A3BAFFA7C524}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D64D6F2-A933-462B-8A92-A3BAFFA7C524}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D64D6F2-A933-462B-8A92-A3BAFFA7C524}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D64D6F2-A933-462B-8A92-A3BAFFA7C524}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{370624F5-96FB-44FB-B6E6-311D8FCEA718} = {AA7020AA-5D91-4BB1-B4C4-77E42870464E}
 		{266D3A72-DB61-440A-8CA4-FD966F7BBBF8} = {AA7020AA-5D91-4BB1-B4C4-77E42870464E}
+		{0D64D6F2-A933-462B-8A92-A3BAFFA7C524} = {AA7020AA-5D91-4BB1-B4C4-77E42870464E}
 	EndGlobalSection
 EndGlobal
