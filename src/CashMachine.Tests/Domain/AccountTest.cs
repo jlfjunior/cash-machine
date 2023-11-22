@@ -1,4 +1,4 @@
-using CashMachine.Domain;
+using CashMachine.Domain.Accounts;
 
 namespace CashMachine.Tests;
 

@@ -1,4 +1,4 @@
-namespace CashMachine.Domain;
+namespace CashMachine.Domain.Accounts;
 
 public class Transaction
 {

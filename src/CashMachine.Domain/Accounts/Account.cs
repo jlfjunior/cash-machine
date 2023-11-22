@@ -1,8 +1,8 @@
 ﻿using System.Collections.Immutable;
 
-namespace CashMachine.Domain;
+namespace CashMachine.Domain.Accounts;
 
-public class Account 
+public class Account : IAggregateRoot
 {
     public Account(string branch, string number, AccountType type) 
     {
